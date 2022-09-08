@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App delete a todo should remove the todo 1`] = `
+[
+  <View>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="todo.title"
+    />
+    <Text />
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="todo.description"
+    />
+    <Text />
+    <View
+      accessibilityRole="button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {},
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          todo.add
+        </Text>
+      </View>
+    </View>
+  </View>,
+  <View
+    testID="todo.card.new"
+  />,
+  <View
+    testID="todo.card.inProgress"
+  />,
+  <View
+    testID="todo.card.done"
+  />,
+]
+`;
+
+exports[`App should load todos in correct containers 1`] = `
+[
+  <View>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="todo.title"
+    />
+    <Text />
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="todo.description"
+    />
+    <Text />
+    <View
+      accessibilityRole="button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {},
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          todo.add
+        </Text>
+      </View>
+    </View>
+  </View>,
+  <View
+    testID="todo.card.new"
+  />,
+  <View
+    testID="todo.card.inProgress"
+  />,
+  <View
+    testID="todo.card.done"
+  />,
+]
+`;
